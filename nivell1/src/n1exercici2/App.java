@@ -9,9 +9,4 @@ public class App {
         System.out.println(pi1.getPiValue());
     }
 
-    @FunctionalInterface
-    public interface PiValue {
-        double getPiValue();
-    }
-
 }
